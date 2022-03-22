@@ -1,6 +1,6 @@
 main {
   width: max(325px, 85%);
-  margin: 130px auto 50px;
+  margin: -50px auto 0;
 
   display: flex;
   flex-wrap: wrap;
@@ -15,7 +15,7 @@ main {
 
 .container {
   padding: 3rem;
-  border-radius: $border-radius;
+  border-radius: 10px;
   background-color: $Dark-Blue;
 }
 

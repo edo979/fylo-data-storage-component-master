@@ -1,8 +1,13 @@
 body {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: grid;
+  place-content: center;
+
   background-color: $Very-Dark-Blue;
   background-image: url(../images/bg-mobile.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 0 -10px;
   background-size: cover;
 }
 
