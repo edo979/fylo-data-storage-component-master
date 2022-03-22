@@ -1,0 +1,23 @@
+.menu {
+  &-header-img {
+    width: 140px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  &-card {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: $Very-Dark-Blue;
+
+    // image in center
+    display: grid;
+    place-content: center;
+  }
+}
+
+.flex {
+  display: flex;
+  gap: 15px;
+}

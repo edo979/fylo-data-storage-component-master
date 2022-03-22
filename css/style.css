@@ -95,4 +95,23 @@ main {
   border-top-right-radius: 100px;
 }
 
+.menu-header-img {
+  width: 140px;
+  height: auto;
+  margin-bottom: 30px;
+}
+.menu-card {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: #0c122c;
+  display: grid;
+  place-content: center;
+}
+
+.flex {
+  display: flex;
+  gap: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */
