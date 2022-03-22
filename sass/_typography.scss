@@ -1,1 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: $ff-raleway;
+}
+
+p {
+  font-size: 1rem;
+  color: $Pale-Blue;
+}
+
+.fw-700 {
+  font-weight: 700;
+}

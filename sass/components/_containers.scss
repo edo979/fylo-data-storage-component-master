@@ -1,6 +1,10 @@
 main {
   width: max(325px, 85%);
   margin: 130px auto 50px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .container {

@@ -73,6 +73,19 @@ html {
 }
 
 body {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  color: #dddbff;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+body {
   background-color: #0c122c;
   background-image: url(../images/bg-mobile.png);
   background-repeat: no-repeat;
@@ -83,6 +96,9 @@ body {
 main {
   width: max(325px, 85%);
   margin: 130px auto 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .container {
@@ -95,6 +111,9 @@ main {
   border-top-right-radius: 100px;
 }
 
+.menu {
+  min-width: 325px;
+}
 .menu-header-img {
   width: 140px;
   height: auto;
@@ -112,6 +131,42 @@ main {
 .flex {
   display: flex;
   gap: 15px;
+}
+
+.storage {
+  width: max(325px, 85%);
+  padding: 30px;
+}
+.storage-progressbar-marker {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress {
+  margin: 15px 0 10px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #0c122c;
+  overflow: hidden;
+}
+.progress-inner {
+  position: relative;
+  width: 70%;
+  height: 16px;
+  margin-top: 2px;
+  margin-left: 2px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #ffa399, #ff4d97);
+}
+.progress-ball {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  top: 50%;
+  right: 2px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: #dddbff;
 }
 
 /*# sourceMappingURL=style.css.map */
