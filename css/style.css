@@ -68,5 +68,31 @@ select {
     scroll-behavior: auto !important;
   }
 }
+html {
+  font-size: 14px;
+}
+
+body {
+  background-color: #0c122c;
+  background-image: url(../images/bg-mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+main {
+  width: max(325px, 85%);
+  margin: 130px auto 50px;
+}
+
+.container {
+  padding: 3rem;
+  border-radius: 15px;
+  background-color: #1d2c67;
+}
+
+.rounded-top-right {
+  border-top-right-radius: 100px;
+}
 
 /*# sourceMappingURL=style.css.map */

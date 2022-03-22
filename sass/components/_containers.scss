@@ -1,0 +1,14 @@
+main {
+  width: max(325px, 85%);
+  margin: 130px auto 50px;
+}
+
+.container {
+  padding: 3rem;
+  border-radius: 15px;
+  background-color: $Dark-Blue;
+}
+
+.rounded-top-right {
+  border-top-right-radius: 100px;
+}
