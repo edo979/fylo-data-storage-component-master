@@ -22,3 +22,14 @@ main {
 .rounded-top-right {
   border-top-right-radius: 100px;
 }
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
