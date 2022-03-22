@@ -14,15 +14,18 @@ p {
 }
 
 .fw-700,
-.text-big {
+.storage-small,
+.storage-big {
   font-weight: 700;
 }
 
-.text-big {
+.storage-big {
   font-size: 3rem;
   color: $Very-Dark-Blue;
 }
 
-.text-neutral {
+.storage-small {
+  font-size: 0.95rem;
+  text-transform: uppercase;
   color: $Grayish-Blue;
 }
