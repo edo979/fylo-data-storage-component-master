@@ -33,3 +33,13 @@ main {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@include mq {
+  main {
+    flex-wrap: nowrap;
+    align-items: end;
+    width: 100%;
+    gap: 30px;
+    margin-top: 0;
+  }
+}

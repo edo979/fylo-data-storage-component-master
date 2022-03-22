@@ -17,3 +17,9 @@ $ff-raleway: 'Raleway', sans-serif;
 
 // Border
 $border-radius: 15px;
+
+@mixin mq {
+  @media (min-width: 900px) {
+    @content;
+  }
+}

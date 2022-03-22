@@ -14,3 +14,11 @@ body {
 @import 'components/containers';
 @import 'components/meny';
 @import 'components/progressbar';
+
+@include mq {
+  body {
+    background-image: url(../images/bg-desktop.png);
+    background-position: bottom;
+    background-size: 100% 50%;
+  }
+}

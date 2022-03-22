@@ -18,3 +18,9 @@
     place-content: center;
   }
 }
+
+@include mq {
+  .menu {
+    min-width: 350px;
+  }
+}

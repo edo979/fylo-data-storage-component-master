@@ -92,12 +92,12 @@ p {
 }
 
 .storage-big {
-  font-size: 3rem;
+  font-size: 2.75rem;
   color: #0c122c;
 }
 
 .storage-small {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   color: #848794;
 }
@@ -150,6 +150,15 @@ main {
   color: #3e52a3;
 }
 
+@media (min-width: 900px) {
+  main {
+    flex-wrap: nowrap;
+    align-items: end;
+    width: 100%;
+    gap: 30px;
+    margin-top: 0;
+  }
+}
 .menu {
   min-width: 325px;
 }
@@ -167,6 +176,11 @@ main {
   place-content: center;
 }
 
+@media (min-width: 900px) {
+  .menu {
+    min-width: 350px;
+  }
+}
 .storage {
   position: relative;
   width: 100%;
@@ -181,18 +195,18 @@ main {
 }
 .storage-status {
   position: absolute;
-  background-color: #dddbff;
   left: 50%;
   bottom: 0;
   width: 180px;
   transform: translate(-50%, 50%);
   padding: 5px 0;
   border-radius: 10px;
+  background-color: white;
   justify-content: center;
 }
 
 .progress {
-  margin: 15px 0 10px;
+  margin: 15px 0 5px;
   height: 20px;
   border-radius: 10px;
   background-color: #162150;
@@ -216,6 +230,40 @@ main {
   transform: translateY(-50%);
   border-radius: 50%;
   background-color: #dddbff;
+}
+
+@media (min-width: 900px) {
+  .storage {
+    width: min(540px, 55vw);
+    padding: 40px;
+  }
+  .storage :first-child {
+    text-align: left;
+  }
+  .storage-status {
+    top: -40px;
+    right: 40px;
+    left: auto;
+    bottom: auto;
+    transform: translate(0, 0);
+  }
+  .storage-status::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: -20px;
+    right: 0;
+    border-left: 50px solid transparent;
+    border-top: 50px solid white;
+  }
+}
+@media (min-width: 900px) {
+  body {
+    background-image: url(../images/bg-desktop.png);
+    background-position: bottom;
+    background-size: 100% 50%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
