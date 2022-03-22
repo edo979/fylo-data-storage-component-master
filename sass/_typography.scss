@@ -13,6 +13,16 @@ p {
   color: $Pale-Blue;
 }
 
-.fw-700 {
+.fw-700,
+.text-big {
   font-weight: 700;
+}
+
+.text-big {
+  font-size: 3rem;
+  color: $Very-Dark-Blue;
+}
+
+.text-neutral {
+  color: $Grayish-Blue;
 }

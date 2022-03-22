@@ -81,8 +81,18 @@ p {
   color: #dddbff;
 }
 
-.fw-700 {
+.fw-700,
+.text-big {
   font-weight: 700;
+}
+
+.text-big {
+  font-size: 3rem;
+  color: #0c122c;
+}
+
+.text-neutral {
+  color: #848794;
 }
 
 body {
@@ -98,6 +108,12 @@ main {
   margin: 130px auto 50px;
   display: flex;
   flex-wrap: wrap;
+  gap: 15px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
   gap: 15px;
 }
 
@@ -128,18 +144,18 @@ main {
   place-content: center;
 }
 
-.flex {
-  display: flex;
-  gap: 15px;
-}
-
 .storage {
+  position: relative;
   width: max(325px, 85%);
   padding: 30px;
 }
 .storage-progressbar-marker {
   display: flex;
   justify-content: space-between;
+}
+.storage-status {
+  position: absolute;
+  background-color: #dddbff;
 }
 
 .progress {

@@ -7,6 +7,12 @@ main {
   gap: 15px;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
 .container {
   padding: 3rem;
   border-radius: $border-radius;

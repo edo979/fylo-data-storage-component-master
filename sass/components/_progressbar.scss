@@ -1,4 +1,5 @@
 .storage {
+  position: relative;
   width: max(325px, 85%);
   padding: 30px;
 
@@ -7,6 +8,11 @@
       display: flex;
       justify-content: space-between;
     }
+  }
+
+  &-status {
+    position: absolute;
+    background-color: $Pale-Blue;
   }
 }
 
